@@ -15,7 +15,6 @@ class MarkDiffImg:
         cv_img = cv2.imdecode(np.fromfile(file_path, dtype=np.uint8), -1)
         return cv_img
 
-    # def mark_diff_img(self, result, basesnapshot_png, runningsnapshot_png, DiffSnapshot_Dir, casename, name):
     def mark_diff_img(self,  basesnapshot_png, runningsnapshot_png, DiffSnapshot_Dir, name):
         """
         对比图片并标出差异，保存差异图片
@@ -64,8 +63,8 @@ if __name__ == '__main__':
     t = MarkDiffImg()
     path = os.path.dirname(__file__)
     print(path)
-    snapshot_base = path + '/snapshot/4.jpg'
-    snapshot_run = path + '/snapshot/5.jpg'
+    snapshot_base = path + '/snapshot/8.png'
+    snapshot_run = path + '/snapshot/9.png'
     DiffSnapshot_Dir = path + '/DiffSnapshot'
     name = 'diff'
     res = t.mark_diff_img(snapshot_base, snapshot_run, DiffSnapshot_Dir, name)
