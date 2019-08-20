@@ -10,7 +10,7 @@ if __name__ == '__main__':
     img2= Image.open(snapshot_run)
     diff = ImageChops.difference(img1,img2).getbbox()
     print(diff)
-    #返回None，则为完全一样
+    #返回None，则为完全一样1
     img3 = Image.open(path + '/snapshot/8.png')
     img4 = Image.open(path + '/snapshot/9.png')
     diff1 = ImageChops.difference(img3, img4).getbbox()
