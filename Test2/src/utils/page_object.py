@@ -1,6 +1,9 @@
 # -*- coding:utf-8 -*-
 from appium import webdriver
+<<<<<<< HEAD
 import time
+=======
+>>>>>>> 7a2e6fbb7536dd8ee3ebf0ad3b2158f670a3bd16
 
 
 class PageObject:
@@ -18,6 +21,7 @@ class PageObject:
             pass
         return element
 
+<<<<<<< HEAD
 class User:
     def __init__(self,driver):
         self.driver = driver
@@ -44,4 +48,7 @@ class User:
     def user_login(self,username,pwd):
         self.driver.find_element_by_android_uiautomator('text(\"Log In\")')
         self.signupToLogin(username,pwd)
+=======
+
+>>>>>>> 7a2e6fbb7536dd8ee3ebf0ad3b2158f670a3bd16
 
