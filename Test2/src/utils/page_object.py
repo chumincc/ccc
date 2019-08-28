@@ -28,5 +28,6 @@ class UserPageObject:
         return element
 
     def user_login(self, username, pwd):
+
         self.driver.find_element_by_android_uiautomator('text(\"Log In\")')
         self.signup_to_login(username, pwd)

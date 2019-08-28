@@ -28,6 +28,7 @@ def startup_conf():
         "clearSystemFiles": conf['clearsystemfiles'],
         "automationName": conf['automationname']
     }
+    print(attr)
     return attr
 
 # 检查点

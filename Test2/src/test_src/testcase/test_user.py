@@ -11,13 +11,11 @@ from src.utils.common import check_point
 
 class Test_user:
     test_login_data = [(fix_data.seller_phone, fix_data.seller_password)]
-    res = None
-    user =
 
     @pytest.mark.parametrize('username, userpwd', test_login_data)
-    def test_login(get_driver, username, userpwd):
-        res = user.login(get_driver, username, userpwd)
-        check_point(res)
+    def test_login(self,get_driver,username, userpwd):
+        self.res = user.userLogin(get_driver, username, userpwd)
+        check_point(self.res)
 
 
 
