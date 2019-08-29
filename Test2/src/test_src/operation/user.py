@@ -6,3 +6,4 @@ from appium import webdriver
 def userLogin(driver,username,pwd):
     user = page_object.UserPageObject(driver)
     user.user_login(username,pwd)
+    return user.button_publish()
