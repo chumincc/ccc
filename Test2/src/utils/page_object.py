@@ -11,6 +11,12 @@ class UserPageObject:
         self.driver = driver
 
     def signup_to_login(self, username, pwd):
+        '''
+        desc:从signup 进去 到登陆
+        :param username:
+        :param pwd:
+        :return:
+        '''
         self.driver.find_element_by_android_uiautomator('text(\"Log In\")').click()
         user_add = self.driver.find_element_by_xpath(
             "//*[@resource-id='app']/android.view.View[3]/android.view.View[1]/android.view.View[2]/android.view.View/android.widget.EditText")
@@ -32,6 +38,12 @@ class UserPageObject:
         return element
 
     def user_login(self, username, pwd):
+        '''
+        desc:从主页进去，个人中心-->登陆按钮->signup 登陆
+        :param username:
+        :param pwd:
+        :return:
+        '''
         self.driver.implicitly_wait(30)
         self.driver.find_element_by_xpath("//*[@resource-id='app']/android.view.View[4]/android.view.View[3]").click()
         self.driver.find_element_by_android_uiautomator('text(\"Log In\")').click()

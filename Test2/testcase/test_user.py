@@ -2,7 +2,7 @@
 
 import pytest
 
-import src.test_src.operation.user as user
+import src.operation.user as user
 
 from data import fix_data
 from src.utils.common import check_point
@@ -18,7 +18,4 @@ class Test_user:
         check_point(self.res)
 
 
-
-def test_publish():
-    pass
 
