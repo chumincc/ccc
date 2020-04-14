@@ -31,7 +31,7 @@ def startup_conf():
         "clearSystemFiles": conf['clearsystemfiles'],
         "automationName": conf['automationname']
     }
-    print(attr)
+    # print(attr)
     return attr
 
 # 检查点
@@ -49,34 +49,22 @@ def current_date():
 def current_time():
     '''生成当前时间字符串'''
     date = time.localtime()
-    return ''.join([str(date.tm_hour), str(date.tm_min), str(date.tm_sec)])
+    return str(date.tm_hour),''.join([str(date.tm_hour), str(date.tm_min), str(date.tm_sec)])
 
 
 def create_dir(dir_name):
-    '''创建当前日期和当前时间目录'''
+    '''创建当前日期和当前时间目录,dir_name为根目录下的二级目录名'''
     path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     date_dir = os.path.join(path,dir_name,current_date())
     if not os.path.exists(date_dir):
         os.mkdir(date_dir)
-    time_dir = os.path.join(date_dir, current_time())
+    time_dir = os.path.join(date_dir, current_time()[0])
     if not os.path.exists(time_dir):
         os.mkdir(time_dir)
     return time_dir
 
 
-# 截图
-def screenshot(driver,pictureName):
-    '''
-    desc:生成截图
-    :param driver:
-    :param pictureName: 调用的方法/函数名
-    :return:
-    '''
-    picturePath = os.path.join(create_dir(), pictureName+'.png')
-    try:
-        driver.get_screenshot_as_file(picturePath)
-    except Exception  as e:
-        print(traceback.print_exc())
+
 
 # if __name__ == '__main__':
 #     create_dir('report')

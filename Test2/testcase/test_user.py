@@ -17,5 +17,9 @@ class Test_user:
         self.res = user.userLogin(get_driver, username, userpwd)
         check_point(self.res)
 
+    def test_publish(self):
+        assert 1==1
+
+
 
 

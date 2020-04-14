@@ -1,0 +1,117 @@
+{
+  "uid" : "62d496d7b16f48d6",
+  "name" : "test_post[test_post_data0]",
+  "fullName" : "test_case.test_post.TestPost#test_post",
+  "historyId" : "0a7ac6728f2ba551bf9d4fcd2381d76f",
+  "time" : {
+    "start" : 1586762815391,
+    "stop" : 1586762815534,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "test_post_data",
+    "time" : {
+      "start" : 1586762815387,
+      "stop" : 1586762815387,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1586762815231,
+      "stop" : 1586762815386,
+      "duration" : 155
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "aa063b54cd0f0076",
+      "name" : "log",
+      "source" : "aa063b54cd0f0076.txt",
+      "type" : "text/plain",
+      "size" : 1732
+    }, {
+      "uid" : "ce81487309f3ab4a",
+      "name" : "stdout",
+      "source" : "ce81487309f3ab4a.txt",
+      "type" : "text/plain",
+      "size" : 757
+    }, {
+      "uid" : "c94a9a6561bd4281",
+      "name" : "stderr",
+      "source" : "c94a9a6561bd4281.txt",
+      "type" : "text/plain",
+      "size" : 4554
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_post"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPost"
+  }, {
+    "name" : "host",
+    "value" : "JdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "23843-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_post"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_post_data",
+    "value" : "{'comment': '发布包包', 'path': '/Advert/postAdFashion', 'header': {'Content-Type': 'application/json', 'X-HEAD-AUTH-TOKEN': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM'}, 'body': {'advert_id': '', 'first_cate': '1', 'second_cate': '5', 'title': 'Bag', 'state_id': '2565340', 'city_id': '60000007', 'description': 'Hi I am interested in the position and would', 'price': 100, 'negotiable': '1', 'is_new': '0', 'country_id': '2328926', 'attrs': {'gender': '212', 'bags_type': '215', 'brand': '501', 'material': ['228'], 'colour': '240', 'closure': ['259']}}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62d496d7b16f48d6.json",
+  "parameterValues" : [ "{'comment': '发布包包', 'path': '/Advert/postAdFashion', 'header': {'Content-Type': 'application/json', 'X-HEAD-AUTH-TOKEN': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM'}, 'body': {'advert_id': '', 'first_cate': '1', 'second_cate': '5', 'title': 'Bag', 'state_id': '2565340', 'city_id': '60000007', 'description': 'Hi I am interested in the position and would', 'price': 100, 'negotiable': '1', 'is_new': '0', 'country_id': '2328926', 'attrs': {'gender': '212', 'bags_type': '215', 'brand': '501', 'material': ['228'], 'colour': '240', 'closure': ['259']}}}" ]
+}

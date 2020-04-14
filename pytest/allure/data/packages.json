@@ -1,0 +1,65 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_file",
+    "children" : [ {
+      "name" : "test_sum",
+      "uid" : "5b16d5699761d320",
+      "parentUid" : "55624d48f202c45fb45b4ff0a88b7310",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586695335766,
+        "stop" : 1586695335806,
+        "duration" : 40
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_a",
+      "uid" : "3358e63a52d5bd9f",
+      "parentUid" : "55624d48f202c45fb45b4ff0a88b7310",
+      "status" : "failed",
+      "time" : {
+        "start" : 1586695335809,
+        "stop" : 1586695335811,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "55624d48f202c45fb45b4ff0a88b7310"
+  }, {
+    "name" : "test_case.test_post",
+    "children" : [ {
+      "name" : "test_post[test_post_data0]",
+      "uid" : "62d496d7b16f48d6",
+      "parentUid" : "a63d569deddce1723d4857d338d3b1cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586762815391,
+        "stop" : 1586762815534,
+        "duration" : 143
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'comment': '发布包包', 'path': '/Advert/postAdFashion', 'header': {'Content-Type': 'application/json', 'X-HEAD-AUTH-TOKEN': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM'}, 'body': {'advert_id': '', 'first_cate': '1', 'second_cate': '5', 'title': 'Bag', 'state_id': '2565340', 'city_id': '60000007', 'description': 'Hi I am interested in the position and would', 'price': 100, 'negotiable': '1', 'is_new': '0', 'country_id': '2328926', 'attrs': {'gender': '212', 'bags_type': '215', 'brand': '501', 'material': ['228'], 'colour': '240', 'closure': ['259']}}}" ]
+    }, {
+      "name" : "test_post[test_post_data1]",
+      "uid" : "e7aa0da7a88b5399",
+      "parentUid" : "a63d569deddce1723d4857d338d3b1cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586762815545,
+        "stop" : 1586762815688,
+        "duration" : 143
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'comment': '发布手机', 'path': '/AdvertMobile/postAd', 'header': {'Content-Type': 'application/json', 'X-HEAD-AUTH-TOKEN': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM'}, 'body': {'second_cate': '255', 'price': 100, 'description': 'Used Samsung Galaxy A8 Plus 8 GB Black 8GB RAM', 'state_id': '2565340', 'first_cate': '247', 'title': 'Used Samsung Galaxy A8 Plus Black RAM', 'negotiable': '1', 'country_id': '2328926', 'advert_id': '', 'city_id': '60001505', 'attrs': {'condition': '3878', 'colour': '240', 'storage_capacity': '60447', 'sim': '70687', 'operating_system': '60470', 'model': '67557', 'screen_size': '60455', 'brand': '60376', 'exchange_possible': '', 'ram': '60443'}}}" ]
+    } ],
+    "uid" : "test_case.test_post"
+  } ]
+}

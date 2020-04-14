@@ -1,0 +1,72 @@
+{
+  "uid" : "3358e63a52d5bd9f",
+  "name" : "test_a",
+  "fullName" : "test_file#test_a",
+  "historyId" : "1c4d960ecc729184c7584b56e1f07a28",
+  "time" : {
+    "start" : 1586695335809,
+    "stop" : 1586695335811,
+    "duration" : 2
+  },
+  "status" : "failed",
+  "statusMessage" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntest_file.py:21: AssumptionFailure\n>>\tpytest.assume(4 == 2)\nAssertionError: assert False",
+  "statusTrace" : "tp = <class 'pytest_assume.plugin.FailedAssumption'>, value = None, tb = None\n\n    def reraise(tp, value, tb=None):\n        try:\n            if value is None:\n                value = tp()\n            if value.__traceback__ is not tb:\n>               raise value.with_traceback(tb)\nE               pytest_assume.plugin.FailedAssumption: \nE               1 Failed Assumptions:\nE               \nE               test_file.py:21: AssumptionFailure\nE               >>\tpytest.assume(4 == 2)\nE               AssertionError: assert False\n\n/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/six.py:692: FailedAssumption",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_file"
+  }, {
+    "name" : "host",
+    "value" : "JdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "12305-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_file"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "44abceade2dd4b19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586614656836,
+        "stop" : 1586614656838,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "cbfb2db1cb462bcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586598036512,
+        "stop" : 1586598036515,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3358e63a52d5bd9f.json",
+  "parameterValues" : [ ]
+}

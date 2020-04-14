@@ -1,0 +1,79 @@
+{
+  "0a7ac6728f2ba551bf9d4fcd2381d76f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "62d496d7b16f48d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586762815391,
+        "stop" : 1586762815534,
+        "duration" : 143
+      }
+    } ]
+  },
+  "1c4d960ecc729184c7584b56e1f07a28" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3358e63a52d5bd9f",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntest_file.py:21: AssumptionFailure\n>>\tpytest.assume(4 == 2)\nAssertionError: assert False",
+      "time" : {
+        "start" : 1586695335809,
+        "stop" : 1586695335811,
+        "duration" : 2
+      }
+    } ]
+  },
+  "6167e6b6e982eacf32093f335c8b5f5d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5b16d5699761d320",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586695335766,
+        "stop" : 1586695335806,
+        "duration" : 40
+      }
+    } ]
+  },
+  "2026ab1ef83b0d0b5d5fc463dec75aed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e7aa0da7a88b5399",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586762815545,
+        "stop" : 1586762815688,
+        "duration" : 143
+      }
+    } ]
+  }
+}

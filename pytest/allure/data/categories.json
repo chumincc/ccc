@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntest_file.py:21: AssumptionFailure\n>>\tpytest.assume(4 == 2)\nAssertionError: assert False",
+      "children" : [ {
+        "name" : "test_a",
+        "uid" : "3358e63a52d5bd9f",
+        "parentUid" : "e6ceeaddcb533f67d170fa1226133ce2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586695335809,
+          "stop" : 1586695335811,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e6ceeaddcb533f67d170fa1226133ce2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,48 @@
+{
+  "uid" : "44abceade2dd4b19",
+  "name" : "test_a",
+  "fullName" : "test_file#test_a",
+  "historyId" : "1c4d960ecc729184c7584b56e1f07a28",
+  "time" : {
+    "start" : 1586614656836,
+    "stop" : 1586614656838,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_file"
+  }, {
+    "name" : "host",
+    "value" : "JdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "9988-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_file"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "44abceade2dd4b19.json",
+  "parameterValues" : [ ]
+}
