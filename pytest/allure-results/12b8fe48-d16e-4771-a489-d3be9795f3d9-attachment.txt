@@ -1,3 +1,0 @@
-正常登陆
-------{'comment': '发布包包', 'path': '/Advert/postAdFashion', 'header': {'Content-Type': 'application/json', 'X-HEAD-AUTH-TOKEN': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM'}, 'body': {'advert_id': '', 'first_cate': '1', 'second_cate': '5', 'title': 'Bag', 'state_id': '2565340', 'city_id': '60000007', 'description': 'Hi I am interested in the position and would', 'price': 100, 'negotiable': '1', 'is_new': '0', 'country_id': '2328926', 'attrs': {'gender': '212', 'bags_type': '215', 'brand': '501', 'material': ['228'], 'colour': '240', 'closure': ['259']}}}
-发布包包

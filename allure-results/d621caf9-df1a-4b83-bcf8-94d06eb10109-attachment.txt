@@ -1,0 +1,16 @@
+INFO     utils.common:conftest.py:40 ---------------------test begins----------------------------
+INFO     utils.common:conftest.py:41 环境：test,http://rap2api.taobao.org/app/mock/241624
+INFO     utils.common:common.py:70 comment= 正常登陆, path= http://rap2api.taobao.org/app/mock/241624/User/Auth/loginV2, headers= {'Content-Type': 'application/json'}, body= {"type": "1", "calling_code": "234", "phone": "1590000097", "password": "123456"}
+INFO     utils.common:common.py:73 response= 200{
+  "data": {
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM",
+    "uid": 2410,
+    "utm_source": "oldorganic",
+    "utm_medium": "oldorganic"
+  },
+  "code": 0,
+  "msg": "",
+  "timestamp": "2020-04-03T10:09:37+08:00",
+  "reqid": "e8c953fe34119d9fcb613048028fc169",
+  "eventid": "e0db7c391560d343868f2902b9cd15cf"
+}

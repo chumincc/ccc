@@ -1,2 +1,0 @@
-[31mCRITICAL[0m test_file:test_file.py:14 test1111111,begin
-[31mCRITICAL[0m test_file:test_file.py:16 test1111111,done

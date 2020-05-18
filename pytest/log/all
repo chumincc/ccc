@@ -1,0 +1,228 @@
+2020-04-28 15:48:38,366 - utils.common - INFO : ---------------------test begins----------------------------
+2020-04-28 15:48:38,366 - utils.common - INFO : 环境：test,http://rap2api.taobao.org/app/mock/241624
+2020-04-28 15:48:38,367 - utils.common - INFO : comment= 正常登陆, path= http://rap2api.taobao.org/app/mock/241624/User/Auth/loginV2, headers= {'Content-Type': 'application/json'}, body= {"type": "1", "calling_code": "234", "phone": "1590000097", "password": "123456"}
+2020-04-28 15:48:38,515 - utils.common - INFO : response= 200{
+  "data": {
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM",
+    "uid": 2410,
+    "utm_source": "oldorganic",
+    "utm_medium": "oldorganic"
+  },
+  "code": 0,
+  "msg": "",
+  "timestamp": "2020-04-03T10:09:37+08:00",
+  "reqid": "e8c953fe34119d9fcb613048028fc169",
+  "eventid": "e0db7c391560d343868f2902b9cd15cf"
+}
+2020-04-28 15:48:38,517 - utils.common - INFO : comment= 发布包包, path= http://rap2api.taobao.org/app/mock/241624/Advert/postAdFashion, headers= {'Content-Type': 'application/json', 'X-HEAD-AUTH-TOKEN': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM'}, body= {"advert_id": "", "first_cate": "1", "second_cate": "5", "title": "Bag", "state_id": "2565340", "city_id": "60000007", "description": "Hi I am interested in the position and would", "price": 100, "negotiable": "1", "is_new": "0", "country_id": "2328926", "attrs": {"gender": "212", "bags_type": "215", "brand": "501", "material": ["228"], "colour": "240", "closure": ["259"]}}
+2020-04-28 15:48:38,668 - utils.common - INFO : response= 200{
+  "data": {
+    "advert_id": 5798200
+  },
+  "code": 0,
+  "msg": "",
+  "timestamp": "2020-04-03T10:08:52+08:00",
+  "reqid": "19fd21da08e8a546dfe08ff4c3c0431a",
+  "eventid": "6ff0334164d89fe8fd5eb70037f89a2b"
+}
+2020-04-28 15:48:38,674 - utils.common - INFO : comment= 发布手机, path= http://rap2api.taobao.org/app/mock/241624/AdvertMobile/postAd, headers= {'Content-Type': 'application/json', 'X-HEAD-AUTH-TOKEN': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM'}, body= {"second_cate": "255", "price": 100, "description": "Used Samsung Galaxy A8 Plus 8 GB Black 8GB RAM", "state_id": "2565340", "first_cate": "247", "title": "Used Samsung Galaxy A8 Plus Black RAM", "negotiable": "1", "country_id": "2328926", "advert_id": "", "city_id": "60001505", "attrs": {"condition": "3878", "colour": "240", "storage_capacity": "60447", "sim": "70687", "operating_system": "60470", "model": "67557", "screen_size": "60455", "brand": "60376", "exchange_possible": "", "ram": "60443"}}
+2020-04-28 15:48:38,809 - utils.common - INFO : response= 200{
+  "data": {
+    "advert_id": 6747322
+  },
+  "code": 0,
+  "msg": "",
+  "timestamp": "2020-04-03T10:08:52+08:00",
+  "reqid": "19fd21da08e8a546dfe08ff4c3c0431a",
+  "eventid": "6ff0334164d89fe8fd5eb70037f89a2b"
+}
+2020-04-28 15:49:36,741 - utils.common - INFO : ---------------------test begins----------------------------
+2020-04-28 15:49:36,742 - utils.common - INFO : 环境：test,http://rap2api.taobao.org/app/mock/241624
+2020-04-28 15:49:36,742 - utils.common - INFO : comment= 正常登陆, path= http://rap2api.taobao.org/app/mock/241624/User/Auth/loginV2, headers= {'Content-Type': 'application/json'}, body= {"type": "1", "calling_code": "234", "phone": "1590000097", "password": "123456"}
+2020-04-28 15:49:36,881 - utils.common - INFO : response= 200{
+  "data": {
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM",
+    "uid": 2410,
+    "utm_source": "oldorganic",
+    "utm_medium": "oldorganic"
+  },
+  "code": 0,
+  "msg": "",
+  "timestamp": "2020-04-03T10:09:37+08:00",
+  "reqid": "e8c953fe34119d9fcb613048028fc169",
+  "eventid": "e0db7c391560d343868f2902b9cd15cf"
+}
+2020-04-28 15:49:36,884 - utils.common - INFO : comment= 发布包包, path= http://rap2api.taobao.org/app/mock/241624/Advert/postAdFashion, headers= {'Content-Type': 'application/json', 'X-HEAD-AUTH-TOKEN': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM'}, body= {"advert_id": "", "first_cate": "1", "second_cate": "5", "title": "Bag", "state_id": "2565340", "city_id": "60000007", "description": "Hi I am interested in the position and would", "price": 100, "negotiable": "1", "is_new": "0", "country_id": "2328926", "attrs": {"gender": "212", "bags_type": "215", "brand": "501", "material": ["228"], "colour": "240", "closure": ["259"]}}
+2020-04-28 15:49:37,021 - utils.common - INFO : response= 200{
+  "data": {
+    "advert_id": 5784402
+  },
+  "code": 0,
+  "msg": "",
+  "timestamp": "2020-04-03T10:08:52+08:00",
+  "reqid": "19fd21da08e8a546dfe08ff4c3c0431a",
+  "eventid": "6ff0334164d89fe8fd5eb70037f89a2b"
+}
+2020-04-28 15:49:37,029 - utils.common - INFO : comment= 发布手机, path= http://rap2api.taobao.org/app/mock/241624/AdvertMobile/postAd, headers= {'Content-Type': 'application/json', 'X-HEAD-AUTH-TOKEN': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM'}, body= {"second_cate": "255", "price": 100, "description": "Used Samsung Galaxy A8 Plus 8 GB Black 8GB RAM", "state_id": "2565340", "first_cate": "247", "title": "Used Samsung Galaxy A8 Plus Black RAM", "negotiable": "1", "country_id": "2328926", "advert_id": "", "city_id": "60001505", "attrs": {"condition": "3878", "colour": "240", "storage_capacity": "60447", "sim": "70687", "operating_system": "60470", "model": "67557", "screen_size": "60455", "brand": "60376", "exchange_possible": "", "ram": "60443"}}
+2020-04-28 15:49:37,171 - utils.common - INFO : response= 200{
+  "data": {
+    "advert_id": 6815928
+  },
+  "code": 0,
+  "msg": "",
+  "timestamp": "2020-04-03T10:08:52+08:00",
+  "reqid": "19fd21da08e8a546dfe08ff4c3c0431a",
+  "eventid": "6ff0334164d89fe8fd5eb70037f89a2b"
+}
+2020-04-28 16:05:34,484 - utils.common - INFO : ---------------------test begins----------------------------
+2020-04-28 16:05:34,484 - utils.common - INFO : 环境：test,http://rap2api.taobao.org/app/mock/241624
+2020-04-28 16:05:34,485 - utils.common - INFO : comment= 正常登陆, path= http://rap2api.taobao.org/app/mock/241624/User/Auth/loginV2, headers= {'Content-Type': 'application/json'}, body= {"type": "1", "calling_code": "234", "phone": "1590000097", "password": "123456"}
+2020-04-28 16:05:34,644 - utils.common - INFO : response= 200{
+  "data": {
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM",
+    "uid": 2410,
+    "utm_source": "oldorganic",
+    "utm_medium": "oldorganic"
+  },
+  "code": 0,
+  "msg": "",
+  "timestamp": "2020-04-03T10:09:37+08:00",
+  "reqid": "e8c953fe34119d9fcb613048028fc169",
+  "eventid": "e0db7c391560d343868f2902b9cd15cf"
+}
+2020-04-28 16:05:34,647 - utils.common - INFO : comment= 发布包包, path= http://rap2api.taobao.org/app/mock/241624/Advert/postAdFashion, headers= {'Content-Type': 'application/json', 'X-HEAD-AUTH-TOKEN': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM'}, body= {"advert_id": "", "first_cate": "1", "second_cate": "5", "title": "Bag", "state_id": "2565340", "city_id": "60000007", "description": "Hi I am interested in the position and would", "price": 100, "negotiable": "1", "is_new": "0", "country_id": "2328926", "attrs": {"gender": "212", "bags_type": "215", "brand": "501", "material": ["228"], "colour": "240", "closure": ["259"]}}
+2020-04-28 16:05:34,777 - utils.common - INFO : response= 200{
+  "data": {
+    "advert_id": 5830856
+  },
+  "code": 0,
+  "msg": "",
+  "timestamp": "2020-04-03T10:08:52+08:00",
+  "reqid": "19fd21da08e8a546dfe08ff4c3c0431a",
+  "eventid": "6ff0334164d89fe8fd5eb70037f89a2b"
+}
+2020-04-28 16:05:34,784 - utils.common - INFO : comment= 发布手机, path= http://rap2api.taobao.org/app/mock/241624/AdvertMobile/postAd, headers= {'Content-Type': 'application/json', 'X-HEAD-AUTH-TOKEN': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM'}, body= {"second_cate": "255", "price": 100, "description": "Used Samsung Galaxy A8 Plus 8 GB Black 8GB RAM", "state_id": "2565340", "first_cate": "247", "title": "Used Samsung Galaxy A8 Plus Black RAM", "negotiable": "1", "country_id": "2328926", "advert_id": "", "city_id": "60001505", "attrs": {"condition": "3878", "colour": "240", "storage_capacity": "60447", "sim": "70687", "operating_system": "60470", "model": "67557", "screen_size": "60455", "brand": "60376", "exchange_possible": "", "ram": "60443"}}
+2020-04-28 16:05:34,925 - utils.common - INFO : response= 200{
+  "data": {
+    "advert_id": 6765610
+  },
+  "code": 0,
+  "msg": "",
+  "timestamp": "2020-04-03T10:08:52+08:00",
+  "reqid": "19fd21da08e8a546dfe08ff4c3c0431a",
+  "eventid": "6ff0334164d89fe8fd5eb70037f89a2b"
+}
+2020-04-28 16:05:42,338 - utils.common - INFO : ---------------------test begins----------------------------
+2020-04-28 16:05:42,338 - utils.common - INFO : 环境：test,http://rap2api.taobao.org/app/mock/241624
+2020-04-28 16:05:42,339 - utils.common - INFO : comment= 正常登陆, path= http://rap2api.taobao.org/app/mock/241624/User/Auth/loginV2, headers= {'Content-Type': 'application/json'}, body= {"type": "1", "calling_code": "234", "phone": "1590000097", "password": "123456"}
+2020-04-28 16:05:42,475 - utils.common - INFO : response= 200{
+  "data": {
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM",
+    "uid": 2410,
+    "utm_source": "oldorganic",
+    "utm_medium": "oldorganic"
+  },
+  "code": 0,
+  "msg": "",
+  "timestamp": "2020-04-03T10:09:37+08:00",
+  "reqid": "e8c953fe34119d9fcb613048028fc169",
+  "eventid": "e0db7c391560d343868f2902b9cd15cf"
+}
+2020-04-28 16:05:42,478 - utils.common - INFO : comment= 发布包包, path= http://rap2api.taobao.org/app/mock/241624/Advert/postAdFashion, headers= {'Content-Type': 'application/json', 'X-HEAD-AUTH-TOKEN': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM'}, body= {"advert_id": "", "first_cate": "1", "second_cate": "5", "title": "Bag", "state_id": "2565340", "city_id": "60000007", "description": "Hi I am interested in the position and would", "price": 100, "negotiable": "1", "is_new": "0", "country_id": "2328926", "attrs": {"gender": "212", "bags_type": "215", "brand": "501", "material": ["228"], "colour": "240", "closure": ["259"]}}
+2020-04-28 16:05:42,629 - utils.common - INFO : response= 200{
+  "data": {
+    "advert_id": 5769137
+  },
+  "code": 0,
+  "msg": "",
+  "timestamp": "2020-04-03T10:08:52+08:00",
+  "reqid": "19fd21da08e8a546dfe08ff4c3c0431a",
+  "eventid": "6ff0334164d89fe8fd5eb70037f89a2b"
+}
+2020-04-28 16:05:42,635 - utils.common - INFO : comment= 发布手机, path= http://rap2api.taobao.org/app/mock/241624/AdvertMobile/postAd, headers= {'Content-Type': 'application/json', 'X-HEAD-AUTH-TOKEN': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM'}, body= {"second_cate": "255", "price": 100, "description": "Used Samsung Galaxy A8 Plus 8 GB Black 8GB RAM", "state_id": "2565340", "first_cate": "247", "title": "Used Samsung Galaxy A8 Plus Black RAM", "negotiable": "1", "country_id": "2328926", "advert_id": "", "city_id": "60001505", "attrs": {"condition": "3878", "colour": "240", "storage_capacity": "60447", "sim": "70687", "operating_system": "60470", "model": "67557", "screen_size": "60455", "brand": "60376", "exchange_possible": "", "ram": "60443"}}
+2020-04-28 16:05:42,771 - utils.common - INFO : response= 200{
+  "data": {
+    "advert_id": 6801185
+  },
+  "code": 0,
+  "msg": "",
+  "timestamp": "2020-04-03T10:08:52+08:00",
+  "reqid": "19fd21da08e8a546dfe08ff4c3c0431a",
+  "eventid": "6ff0334164d89fe8fd5eb70037f89a2b"
+}
+2020-04-28 16:05:52,963 - utils.common - INFO : ---------------------test begins----------------------------
+2020-04-28 16:05:52,963 - utils.common - INFO : 环境：test,http://rap2api.taobao.org/app/mock/241624
+2020-04-28 16:05:52,964 - utils.common - INFO : comment= 正常登陆, path= http://rap2api.taobao.org/app/mock/241624/User/Auth/loginV2, headers= {'Content-Type': 'application/json'}, body= {"type": "1", "calling_code": "234", "phone": "1590000097", "password": "123456"}
+2020-04-28 16:05:53,111 - utils.common - INFO : response= 200{
+  "data": {
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM",
+    "uid": 2410,
+    "utm_source": "oldorganic",
+    "utm_medium": "oldorganic"
+  },
+  "code": 0,
+  "msg": "",
+  "timestamp": "2020-04-03T10:09:37+08:00",
+  "reqid": "e8c953fe34119d9fcb613048028fc169",
+  "eventid": "e0db7c391560d343868f2902b9cd15cf"
+}
+2020-04-28 16:05:53,114 - utils.common - INFO : comment= 发布包包, path= http://rap2api.taobao.org/app/mock/241624/Advert/postAdFashion, headers= {'Content-Type': 'application/json', 'X-HEAD-AUTH-TOKEN': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM'}, body= {"advert_id": "", "first_cate": "1", "second_cate": "5", "title": "Bag", "state_id": "2565340", "city_id": "60000007", "description": "Hi I am interested in the position and would", "price": 100, "negotiable": "1", "is_new": "0", "country_id": "2328926", "attrs": {"gender": "212", "bags_type": "215", "brand": "501", "material": ["228"], "colour": "240", "closure": ["259"]}}
+2020-04-28 16:05:53,356 - utils.common - INFO : response= 200{
+  "data": {
+    "advert_id": 5758386
+  },
+  "code": 0,
+  "msg": "",
+  "timestamp": "2020-04-03T10:08:52+08:00",
+  "reqid": "19fd21da08e8a546dfe08ff4c3c0431a",
+  "eventid": "6ff0334164d89fe8fd5eb70037f89a2b"
+}
+2020-04-28 16:05:53,363 - utils.common - INFO : comment= 发布手机, path= http://rap2api.taobao.org/app/mock/241624/AdvertMobile/postAd, headers= {'Content-Type': 'application/json', 'X-HEAD-AUTH-TOKEN': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM'}, body= {"second_cate": "255", "price": 100, "description": "Used Samsung Galaxy A8 Plus 8 GB Black 8GB RAM", "state_id": "2565340", "first_cate": "247", "title": "Used Samsung Galaxy A8 Plus Black RAM", "negotiable": "1", "country_id": "2328926", "advert_id": "", "city_id": "60001505", "attrs": {"condition": "3878", "colour": "240", "storage_capacity": "60447", "sim": "70687", "operating_system": "60470", "model": "67557", "screen_size": "60455", "brand": "60376", "exchange_possible": "", "ram": "60443"}}
+2020-04-28 16:05:53,510 - utils.common - INFO : response= 200{
+  "data": {
+    "advert_id": 6812147
+  },
+  "code": 0,
+  "msg": "",
+  "timestamp": "2020-04-03T10:08:52+08:00",
+  "reqid": "19fd21da08e8a546dfe08ff4c3c0431a",
+  "eventid": "6ff0334164d89fe8fd5eb70037f89a2b"
+}
+2020-04-28 16:06:49,908 - utils.common - INFO : ---------------------test begins----------------------------
+2020-04-28 16:06:49,908 - utils.common - INFO : 环境：test,http://rap2api.taobao.org/app/mock/241624
+2020-04-28 16:06:49,908 - utils.common - INFO : comment= 正常登陆, path= http://rap2api.taobao.org/app/mock/241624/User/Auth/loginV2, headers= {'Content-Type': 'application/json'}, body= {"type": "1", "calling_code": "234", "phone": "1590000097", "password": "123456"}
+2020-04-28 16:06:50,061 - utils.common - INFO : response= 200{
+  "data": {
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM",
+    "uid": 2410,
+    "utm_source": "oldorganic",
+    "utm_medium": "oldorganic"
+  },
+  "code": 0,
+  "msg": "",
+  "timestamp": "2020-04-03T10:09:37+08:00",
+  "reqid": "e8c953fe34119d9fcb613048028fc169",
+  "eventid": "e0db7c391560d343868f2902b9cd15cf"
+}
+2020-04-28 16:06:50,067 - utils.common - INFO : comment= 发布包包, path= http://rap2api.taobao.org/app/mock/241624/Advert/postAdFashion, headers= {'Content-Type': 'application/json', 'X-HEAD-AUTH-TOKEN': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM'}, body= {"advert_id": "", "first_cate": "1", "second_cate": "5", "title": "Bag", "state_id": "2565340", "city_id": "60000007", "description": "Hi I am interested in the position and would", "price": 100, "negotiable": "1", "is_new": "0", "country_id": "2328926", "attrs": {"gender": "212", "bags_type": "215", "brand": "501", "material": ["228"], "colour": "240", "closure": ["259"]}}
+2020-04-28 16:06:50,199 - utils.common - INFO : response= 200{
+  "data": {
+    "advert_id": 5760438
+  },
+  "code": 0,
+  "msg": "",
+  "timestamp": "2020-04-03T10:08:52+08:00",
+  "reqid": "19fd21da08e8a546dfe08ff4c3c0431a",
+  "eventid": "6ff0334164d89fe8fd5eb70037f89a2b"
+}
+2020-04-28 16:06:50,212 - utils.common - INFO : comment= 发布手机, path= http://rap2api.taobao.org/app/mock/241624/AdvertMobile/postAd, headers= {'Content-Type': 'application/json', 'X-HEAD-AUTH-TOKEN': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjI0MTAsImFwcElkIjoiMTAwMyIsInBsYXRmb3JtIjoiIiwiaXNzIjoiYXBpLmhvbmV5Y29tYi54Z28ub25lIiwic2lnblRpbWUiOjE1ODUyMDQ4Njh9.sJsIGPARskYHLXcUWjLMIDc4eeP8j33gI8oUOC8JhaM'}, body= {"second_cate": "255", "price": 100, "description": "Used Samsung Galaxy A8 Plus 8 GB Black 8GB RAM", "state_id": "2565340", "first_cate": "247", "title": "Used Samsung Galaxy A8 Plus Black RAM", "negotiable": "1", "country_id": "2328926", "advert_id": "", "city_id": "60001505", "attrs": {"condition": "3878", "colour": "240", "storage_capacity": "60447", "sim": "70687", "operating_system": "60470", "model": "67557", "screen_size": "60455", "brand": "60376", "exchange_possible": "", "ram": "60443"}}
+2020-04-28 16:06:50,353 - utils.common - INFO : response= 200{
+  "data": {
+    "advert_id": 6787296
+  },
+  "code": 0,
+  "msg": "",
+  "timestamp": "2020-04-03T10:08:52+08:00",
+  "reqid": "19fd21da08e8a546dfe08ff4c3c0431a",
+  "eventid": "6ff0334164d89fe8fd5eb70037f89a2b"
+}
